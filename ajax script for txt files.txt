@@ -1,0 +1,17 @@
+ajax script
+
+<script>
+function txtfile()
+{
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechanges = function()
+{
+if(this.readystate==4&&this.status==200)
+{
+document.getElementById("demo").innerHTML = xhttp.responseText;
+}
+}
+xhttp.open("GET","file.txt",true);
+xhttp.send();
+}
+</script>
