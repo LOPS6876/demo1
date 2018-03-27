@@ -3,7 +3,7 @@ ajax script
 <script>
 function txtfile()
 {
-var xhttp = new XMLHttpRequest();
+var xhttp = new XMLHttpRequest();hghg
 xhttp.onreadystatechanges = function()
 {
 if(this.readystate==4&&this.status==200)
